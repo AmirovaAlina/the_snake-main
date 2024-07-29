@@ -1,11 +1,9 @@
-Игрок управляет длинным, тонким существом, напоминающим змею, которое ползает по плоскости (как правило, ограниченной стенками), собирая еду (или другие предметы), избегая столкновения с собственным хвостом и краями игрового поля (существуют варианты где при прохождении через край змея выходит из противоположного края поля). Каждый раз, когда змея съедает кусок пищи, она становится длиннее, что постепенно усложняет игру.
+The player controls a snake that crawls along a plane, collecting food (in this case 'apples') avoiding a collision with own tail. Each time the snake eats an apple, it becomes longer, making the game progressively more difficult.
 
 ![Снимок экрана (3)](https://github.com/user-attachments/assets/5586f628-2691-4075-9a4c-66c1ca8d5385)
 
-
-Мои правила игры "Змейка"
-Стартовой позицией является одна клетка ("Голова"), которая находится в центральном положении.
-
-В моей версии нельзя умереть (при столкновении стеной змейка выходит из противоположной стены, при столкновении с самим собой ("самоедство") змейка возвращается к стартовой позиции, сохраняя координаты "Головы").
-
-При поедании "Яблока" добавляется новая клетка змеи.
+My rules for the game "Snake"
+The starting position is one cell (“Apple”), which is located in the central position of the screen.
+The snake starts crawling from a random position.
+In my version, you cannot die when colliding with a wall, the snake comes out of the opposite wall, when colliding with itself (“self-eating”) the snake returns to the starting position
+When eating an "Apple", a new snake cell is added.
