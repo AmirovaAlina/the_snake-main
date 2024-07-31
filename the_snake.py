@@ -61,7 +61,7 @@ class GameObject:
 class Apple(GameObject):
     def __init__(self):
         super().__init__(body_color=APPLE_COLOR)
-        
+        self.randomize_position()
         
     def randomize_position(self):
         self.position = (
