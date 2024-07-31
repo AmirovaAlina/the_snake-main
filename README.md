@@ -1,9 +1,45 @@
-The player controls a snake that crawls along a plane, collecting food (in this case 'apples') avoiding a collision with own tail. Each time the snake eats an apple, it becomes longer, making the game progressively more difficult.
+<div id="header" align="center">
+  <img src="C:\Users\Алина\Downloads\68747470733a2f2f69302e77702e636f6d2f6172742e706978696c6172742e636f6d2f6662373434353865663730336166612e6769663f726573697a653d3330302532433330302673736c3d31.gif" width="100"/>
+</div>
 
-![Снимок экрана (3)](https://github.com/user-attachments/assets/5586f628-2691-4075-9a4c-66c1ca8d5385)
+Description:
+-
 
-My rules for the game "Snake"
-The starting position is one cell (“Apple”), which is located in the central position of the screen.
-The snake starts crawling from a random position.
-In my version, you cannot die when colliding with a wall, the snake comes out of the opposite wall, when colliding with itself (“self-eating”) the snake returns to the starting position
-When eating an "Apple", a new snake cell is added.
+
+A simple Snake game in Python using Pygame. Snake moves around the 'playing field', collects apples and grows. The player controls the snake using the keyboard.
+
+Installation:
+-
+
+ 1. Install Python and Pygame:
+   pip install pygame
+
+ 2. Dowload or fork this repository.
+
+Starting the game:
+ -
+ -  Run the file.main.py
+
+Control:
+ - 
+ - Keys up, down, left, right - snake direction control.
+
+ Functionality:
+ -
+ - Movement of the snake across the playing field.
+ - Generation of apples in random positions.
+ - Growth of snake when eating apples.
+ - The game ends when the snake collides with itself.
+
+Technologies:
+-
+ - Python
+ - Pygame
+
+Future plans:
+-
+- Add different difficulty levels.
+- Implement a scoring system.
+- Create a settings menu.
+
+ 
